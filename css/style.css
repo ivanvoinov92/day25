@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700|Playfair+Display');
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	color:  #171717;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+}
+
+/* Layout */
+.ba-container{
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 130px 100px;
+
+}
+
+
+.ba-box {
+	background-color: #fff;
+	padding: 140px 123px 120px;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ba-title {
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+	font-weight: 400;
+}
+
+.ba-box p:first-of-type:first-letter {
+	font-family: 'Playfair Display', serif;
+	font-size: 110px;
+	float: left;
+	margin-right: 30px;
+	line-height: 0.8;
+}
+
+.ba-qoute {
+	margin-left: 0;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 1.4;
+}
+
+.ba-qoute:before {
+    content: open-quote;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.ba-button {
+	display: inline-block;
+	border: 2px solid  #eaa258;
+	color: #eaa258;
+	font-weight: 700;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 27px 75px;
+	margin-top: 20px;
+	letter-spacing: 0.18em;
+
+}
+
+.ba-button:hover {
+	color: #fff;
+	background: #eaa258;
+	border-radius: 9px;
+}
